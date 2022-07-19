@@ -1,0 +1,59 @@
+<#
+Purpose: Delete log files from $UNCPath, for files/folders where $_.LastWriteTime is LESS THAN $DateTo
+Variables:
+$DateTo = 1/1/2019
+$DateTo = 12/12/2001
+Spaces in UNC Path need to be within SINGLE-Quotes
+$UNCPATH = \\file1\server\folder\file\file1.txt
+$UNCPATH = '\\file1\server\folder\file\New Work Document1.docx'
+CASES: Where it Fails
+
+#region Helper Functions
+Function Write-PoshLog {
+[CmdletBinding()]
+    Param (
+        [Parameter(Mandatory=$true,ValueFromPipeline=$true)] 
+        [string]$Message,
+        #Default Values
+        $LogFile 
+        )
+Process {
+    $Message = [DateTime]::Now.ToString("[yyyy-MMM-dd HH:mm:ss.fff]: ") + $Message
+    $Message >> $LogFile 
+    Write-Host $Message -ForegroundColor Cyan
+    }
+} #End of Function Write-PoshLog
+Function Delete-FilesFromDrive {
+    param(
+    [parameter(Mandatory=$true)] 
+    $UNCPath,
+    [parameter(Mandatory=$true)] 
+    [datetime]$dateTo
+    )
+    process {
+        If (Test-Path $UNCPath) {
+            #Uses RECURSE Switch, so it will delete everything below that directory, where the $dateTO
+            Get-ChildItem -Path $UNCPath -Recurse -Force | Where {$_.LastWriteTime -gt $dateTo } | Foreach {
+                Write-PoshLog -Message "DELETING: $($_.FullName)" -LogFile $logFile 
+               
+                #UNCOMENT: The line below to RUN DELETE.
+                #TEST IT FIRST --> By Reviewing The Logs.
+                #Remove-Item -Path $_.FullName -Force
+            }
+        
+        }
+    }
+}
+#endregion
+
+# INITIALIZE VARIABLES
+$dateUpto = Get-date 2/24/2019
+$FolderToDelete = 'C:\Temp\KevinTest'
+$global:Logfile = "c:\Temp\FileDeleteLog.log"
+#Create LogFile if it doesnt exist.
+    if (-not (Test-Path $LogFile)) {
+        New-Item -ItemType File -Path $LogFile -Force
+    }
+
+#RUN THIS
+Delete-FilesFromDrive -UNCPath $FolderToDelete -dateTo $dateUpto
