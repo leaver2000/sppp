@@ -1,0 +1,12 @@
+#!/bin/bash
+for i in {2..23}
+do
+    
+#    echo "Welcome $i times"
+    if [ $i -gt 9 ]
+    then
+        wget "https://mrms.agron.iastate.edu/2022/06/15/20220615$i.zip"
+    else
+        wget "https://mrms.agron.iastate.edu/2022/06/15/202206150$i.zip"
+    fi
+done

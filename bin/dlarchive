@@ -16,10 +16,10 @@ def download(start_date: datetime) -> None:
         for i in range(23):
             url = (start_date + timedelta(hours=i)).strftime(template)
             try:
-                print(url)
+                print("downloading url:", url)
                 r = session.get(url)
                 r.raise_for_status()
-                file_out = data_path / r.url.split("/")[0]
+                file_out = data_path / r.url.split("/")[-1]
                 with file_out.open("wb") as fout:
                     copyfileobj(r.raw, fout)
                     print("file saved")
@@ -29,9 +29,5 @@ def download(start_date: datetime) -> None:
 
 
 if __name__ == "__main__":
-    # try:
     start_date = pd.to_datetime(sys.argv[1])
     download(start_date)
-    # except:
-    #     print("arvg not in datetime format")
-    
