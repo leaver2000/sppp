@@ -2,7 +2,7 @@
 __all__ = ["ArchiveTrawler", "download_archive_data"]
 import json
 from pathlib import Path
-
+from datetime import datetime
 import pandas as pd
 from requests import Session, HTTPError
 
@@ -10,8 +10,8 @@ from sppp.extract.trawler import ArchiveTrawler
 
 
 def download_archive_data(
-    start: str,
-    end: str,
+    start: str | datetime,
+    end: str | datetime,
     freq: str = "2min",
     outdir: Path = Path("/home/leaver2000/sppp/archive"),
 ) -> None:

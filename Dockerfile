@@ -139,9 +139,9 @@ ENV PATH="/opt/venv/bin:$PATH" \
     PROJ_LIB="/usr/share/proj" \
     ECCODES_DIR="/usr/include/eccodes" 
 #   
-COPY requirements.txt requirements.txt 
-#
-RUN python -m pip install --no-cache-dir --upgrade pip \
-    && python -m pip install --no-cache-dir -r requirements.txt
+# COPY requirements.txt requirements.txt 
+# #
+# RUN python -m pip install --no-cache-dir --upgrade pip \
+#     && python -m pip install --no-cache-dir -r requirements.txt
 # quick test
 # RUN python -m cfgrib selfcheck && python -c "import rasterio as rio; import cartopy.crs as ccrs"
