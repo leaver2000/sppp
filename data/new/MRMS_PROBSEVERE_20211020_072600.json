@@ -1,0 +1,2742 @@
+{
+    "source": "NOAA/NCEP Central Operations",
+    "product": "ProbSevere",
+    "validTime": "20211020_072651 UTC",
+    "productionTime": "20211020_072804 UTC",
+    "machine": "vm-bldr-mrms-ops-probsvr1.ncep.noaa.gov",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.67,
+                            38.96
+                        ],
+                        [
+                            -73.62,
+                            38.96
+                        ],
+                        [
+                            -73.58,
+                            38.93
+                        ],
+                        [
+                            -73.51,
+                            38.9
+                        ],
+                        [
+                            -73.46,
+                            38.85
+                        ],
+                        [
+                            -73.45,
+                            38.83
+                        ],
+                        [
+                            -73.45,
+                            38.8
+                        ],
+                        [
+                            -73.46,
+                            38.78
+                        ],
+                        [
+                            -73.48,
+                            38.76
+                        ],
+                        [
+                            -73.51,
+                            38.76
+                        ],
+                        [
+                            -73.52,
+                            38.77
+                        ],
+                        [
+                            -73.55,
+                            38.77
+                        ],
+                        [
+                            -73.57,
+                            38.79
+                        ],
+                        [
+                            -73.65,
+                            38.81
+                        ],
+                        [
+                            -73.69,
+                            38.85
+                        ],
+                        [
+                            -73.7,
+                            38.87
+                        ],
+                        [
+                            -73.7,
+                            38.93
+                        ],
+                        [
+                            -73.67,
+                            38.96
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.30 in.",
+                    "LINE03": "- VIL Density: 1.39 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.001 /s",
+                    "LINE07": "- 98% LLAzShear: 0.001 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 11.1 kts; SRH 0-1km AGL: 103 m^2/s^2",
+                    "LINE11": "- MUCAPE: 46 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 24.0 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 7.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 0 J/kg; PWAT: 0.6 in.",
+                    "LINE15": "Avg. beam height (ARL): 7.41 kft / 2.26 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.001 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 103 m2/s2",
+                    "LINE07": "- EBShear: 11.1 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 24.0 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 7.41 kft / 2.26 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.30 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 11.1 kts",
+                    "LINE06": "- CAPE -10C to -30C: 0 J/kg",
+                    "LINE07": "- PWAT: 0.6 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 7.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.30 in.",
+                    "LINE03": "- VIL Density: 1.39 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 11.1 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 24.0 kts",
+                    "LINE10": "- MUCAPE: 46 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "46",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "11.1",
+                "SRH01KM": "103",
+                "MEANWIND_1-3kmAGL": "24.0",
+                "MESH": "0.30",
+                "VIL_DENSITY": "1.39",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.001",
+                "P98LLAZ": "0.001",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "7.5",
+                "PWAT": "0.6",
+                "CAPE_M10M30": "0",
+                "LJA": "0.0",
+                "SIZE": "353",
+                "AVG_BEAM_HGT": "7.41 kft / 2.26 km",
+                "MOTION_EAST": "-6.027",
+                "MOTION_SOUTH": "-3.807",
+                "PS": "0",
+                "ID": "875"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94.87,
+                            28.96
+                        ],
+                        [
+                            -94.84,
+                            28.95
+                        ],
+                        [
+                            -94.8,
+                            28.91
+                        ],
+                        [
+                            -94.79,
+                            28.91
+                        ],
+                        [
+                            -94.79,
+                            28.89
+                        ],
+                        [
+                            -94.81,
+                            28.88
+                        ],
+                        [
+                            -94.84,
+                            28.88
+                        ],
+                        [
+                            -94.87,
+                            28.91
+                        ],
+                        [
+                            -94.87,
+                            28.93
+                        ],
+                        [
+                            -94.88,
+                            28.94
+                        ],
+                        [
+                            -94.87,
+                            28.96
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "2",
+                    "LINE01": "ProbHail: 2%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 1.02 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.004 /s",
+                    "LINE07": "- 98% LLAzShear: 0.003 /s",
+                    "LINE08": "- 98% MLAzShear: 0.004 /s",
+                    "LINE09": "- Norm. vert. growth rate: 0716Z 2.2%/min (moderate)",
+                    "LINE10": "- EBShear: 40.7 kts; SRH 0-1km AGL: 28 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2736 J/kg; MLCAPE: 1886 J/kg; MLCIN: -1 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 9.1 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 11.4 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 636 J/kg; PWAT: 1.4 in.",
+                    "LINE15": "Avg. beam height (ARL): 2.27 kft / 0.69 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.004 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 28 m2/s2",
+                    "LINE07": "- EBShear: 40.7 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 9.1 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1886/-1 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 2.27 kft / 0.69 km"
+                },
+                "probhail": {
+                    "PROB": "2",
+                    "LINE01": "ProbHail: 2%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: 0716Z 2.2%/min (moderate)",
+                    "LINE05": "- EBShear: 40.7 kts",
+                    "LINE06": "- CAPE -10C to -30C: 636 J/kg",
+                    "LINE07": "- PWAT: 1.4 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 11.4 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 1.02 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: 0716Z 2.2%/min (moderate)",
+                    "LINE08": "- EBShear: 40.7 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 9.1 kts",
+                    "LINE10": "- MUCAPE: 2736 J/kg; MLCAPE: 1886 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2736",
+                "MLCAPE": "1886",
+                "MLCIN": "-1",
+                "EBSHEAR": "40.7",
+                "SRH01KM": "28",
+                "MEANWIND_1-3kmAGL": "9.1",
+                "MESH": "0.00",
+                "VIL_DENSITY": "1.02",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.004",
+                "P98LLAZ": "0.003",
+                "P98MLAZ": "0.004",
+                "MAXRC_EMISS": "0716Z 2.2%/min (moderate)",
+                "MAXRC_ICECF": "0716Z 0.0/min (weak)",
+                "WETBULB_0C_HGT": "11.4",
+                "PWAT": "1.4",
+                "CAPE_M10M30": "636",
+                "LJA": "0.0",
+                "SIZE": "54",
+                "AVG_BEAM_HGT": "2.27 kft / 0.69 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "5",
+                "ID": "881"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.15,
+                            29.31
+                        ],
+                        [
+                            -90.07,
+                            29.31
+                        ],
+                        [
+                            -90.04,
+                            29.28
+                        ],
+                        [
+                            -90.0,
+                            29.26
+                        ],
+                        [
+                            -90.0,
+                            29.25
+                        ],
+                        [
+                            -89.97,
+                            29.21
+                        ],
+                        [
+                            -89.9,
+                            29.18
+                        ],
+                        [
+                            -89.88,
+                            29.16
+                        ],
+                        [
+                            -89.88,
+                            29.13
+                        ],
+                        [
+                            -89.89,
+                            29.11
+                        ],
+                        [
+                            -89.92,
+                            29.11
+                        ],
+                        [
+                            -89.94,
+                            29.13
+                        ],
+                        [
+                            -89.95,
+                            29.13
+                        ],
+                        [
+                            -89.95,
+                            29.16
+                        ],
+                        [
+                            -89.97,
+                            29.18
+                        ],
+                        [
+                            -89.99,
+                            29.18
+                        ],
+                        [
+                            -90.07,
+                            29.14
+                        ],
+                        [
+                            -90.08,
+                            29.15
+                        ],
+                        [
+                            -90.1,
+                            29.15
+                        ],
+                        [
+                            -90.14,
+                            29.2
+                        ],
+                        [
+                            -90.18,
+                            29.21
+                        ],
+                        [
+                            -90.2,
+                            29.23
+                        ],
+                        [
+                            -90.2,
+                            29.28
+                        ],
+                        [
+                            -90.19,
+                            29.28
+                        ],
+                        [
+                            -90.18,
+                            29.3
+                        ],
+                        [
+                            -90.16,
+                            29.3
+                        ],
+                        [
+                            -90.15,
+                            29.31
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.12 in.",
+                    "LINE03": "- VIL Density: 1.11 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.09 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.003 /s",
+                    "LINE07": "- 98% LLAzShear: 0.002 /s",
+                    "LINE08": "- 98% MLAzShear: 0.003 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 41.1 kts; SRH 0-1km AGL: 10 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2611 J/kg; MLCAPE: 1838 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 14.3 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 13.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 618 J/kg; PWAT: 2.0 in.",
+                    "LINE15": "Avg. beam height (ARL): 5.69 kft / 1.74 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.003 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE05": "- Flash Density: 0.09 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 10 m2/s2",
+                    "LINE07": "- EBShear: 41.1 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 14.3 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1838/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 5.69 kft / 1.74 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.12 in.",
+                    "LINE03": "- Flash Rate: 1 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 41.1 kts",
+                    "LINE06": "- CAPE -10C to -30C: 618 J/kg",
+                    "LINE07": "- PWAT: 2.0 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 13.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.12 in.",
+                    "LINE03": "- VIL Density: 1.11 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 41.1 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 14.3 kts",
+                    "LINE10": "- MUCAPE: 2611 J/kg; MLCAPE: 1838 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2611",
+                "MLCAPE": "1838",
+                "MLCIN": "-999",
+                "EBSHEAR": "41.1",
+                "SRH01KM": "10",
+                "MEANWIND_1-3kmAGL": "14.3",
+                "MESH": "0.12",
+                "VIL_DENSITY": "1.11",
+                "FLASH_RATE": "1",
+                "FLASH_DENSITY": "0.09",
+                "MAXLLAZ": "0.003",
+                "P98LLAZ": "0.002",
+                "P98MLAZ": "0.003",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "13.5",
+                "PWAT": "2.0",
+                "CAPE_M10M30": "618",
+                "LJA": "0.0",
+                "SIZE": "351",
+                "AVG_BEAM_HGT": "5.69 kft / 1.74 km",
+                "MOTION_EAST": "-6.332",
+                "MOTION_SOUTH": "-7.805",
+                "PS": "9",
+                "ID": "895"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -88.1,
+                            44.53
+                        ],
+                        [
+                            -88.05,
+                            44.53
+                        ],
+                        [
+                            -88.05,
+                            44.49
+                        ],
+                        [
+                            -88.04,
+                            44.48
+                        ],
+                        [
+                            -88.05,
+                            44.47
+                        ],
+                        [
+                            -88.05,
+                            44.45
+                        ],
+                        [
+                            -88.08,
+                            44.43
+                        ],
+                        [
+                            -88.11,
+                            44.43
+                        ],
+                        [
+                            -88.13,
+                            44.45
+                        ],
+                        [
+                            -88.13,
+                            44.5
+                        ],
+                        [
+                            -88.1,
+                            44.53
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.003 /s",
+                    "LINE07": "- 98% LLAzShear: 0.003 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: 0611Z 0.4%/min (weak)",
+                    "LINE10": "- EBShear: 6.4 kts; SRH 0-1km AGL: 112 m^2/s^2",
+                    "LINE11": "- MUCAPE: 48 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 18.0 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 10.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 20 J/kg; PWAT: 0.9 in.",
+                    "LINE15": "Avg. beam height (ARL): 0.01 kft / 0.00 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.003 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 112 m2/s2",
+                    "LINE07": "- EBShear: 6.4 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 18.0 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 0.01 kft / 0.00 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: 0611Z 0.4%/min (weak)",
+                    "LINE05": "- EBShear: 6.4 kts",
+                    "LINE06": "- CAPE -10C to -30C: 20 J/kg",
+                    "LINE07": "- PWAT: 0.9 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 10.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: 0611Z 0.4%/min (weak)",
+                    "LINE08": "- EBShear: 6.4 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 18.0 kts",
+                    "LINE10": "- MUCAPE: 48 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "48",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "6.4",
+                "SRH01KM": "112",
+                "MEANWIND_1-3kmAGL": "18.0",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.32",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.003",
+                "P98LLAZ": "0.003",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "0611Z 0.4%/min (weak)",
+                "MAXRC_ICECF": "0606Z 0.0/min (weak)",
+                "WETBULB_0C_HGT": "10.5",
+                "PWAT": "0.9",
+                "CAPE_M10M30": "20",
+                "LJA": "0.0",
+                "SIZE": "87",
+                "AVG_BEAM_HGT": "0.01 kft / 0.00 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "0",
+                "ID": "913"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -103.32,
+                            45.08
+                        ],
+                        [
+                            -103.3,
+                            45.08
+                        ],
+                        [
+                            -103.3,
+                            45.04
+                        ],
+                        [
+                            -103.31,
+                            45.04
+                        ],
+                        [
+                            -103.33,
+                            45.02
+                        ],
+                        [
+                            -103.33,
+                            45.0
+                        ],
+                        [
+                            -103.35,
+                            44.97
+                        ],
+                        [
+                            -103.41,
+                            44.96
+                        ],
+                        [
+                            -103.45,
+                            44.99
+                        ],
+                        [
+                            -103.45,
+                            45.02
+                        ],
+                        [
+                            -103.43,
+                            45.05
+                        ],
+                        [
+                            -103.41,
+                            45.06
+                        ],
+                        [
+                            -103.35,
+                            45.06
+                        ],
+                        [
+                            -103.32,
+                            45.08
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.37 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.001 /s",
+                    "LINE07": "- 98% LLAzShear: 0.000 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 5.0 kts; SRH 0-1km AGL: 50 m^2/s^2",
+                    "LINE11": "- MUCAPE: 9 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 20.1 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 1.0 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 2 J/kg; PWAT: 0.7 in.",
+                    "LINE15": "Avg. beam height (ARL): 5.00 kft / 1.52 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.001 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.000 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 50 m2/s2",
+                    "LINE07": "- EBShear: 5.0 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 20.1 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 5.00 kft / 1.52 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 5.0 kts",
+                    "LINE06": "- CAPE -10C to -30C: 2 J/kg",
+                    "LINE07": "- PWAT: 0.7 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 1.0 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.37 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.000 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 5.0 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 20.1 kts",
+                    "LINE10": "- MUCAPE: 9 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "9",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "5.0",
+                "SRH01KM": "50",
+                "MEANWIND_1-3kmAGL": "20.1",
+                "MESH": "0.05",
+                "VIL_DENSITY": "0.37",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.001",
+                "P98LLAZ": "0.000",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "1.0",
+                "PWAT": "0.7",
+                "CAPE_M10M30": "2",
+                "LJA": "0.0",
+                "SIZE": "136",
+                "AVG_BEAM_HGT": "5.00 kft / 1.52 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "0",
+                "ID": "918"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -97.58,
+                            43.68
+                        ],
+                        [
+                            -97.52,
+                            43.68
+                        ],
+                        [
+                            -97.51,
+                            43.67
+                        ],
+                        [
+                            -97.51,
+                            43.64
+                        ],
+                        [
+                            -97.57,
+                            43.58
+                        ],
+                        [
+                            -97.57,
+                            43.57
+                        ],
+                        [
+                            -97.63,
+                            43.57
+                        ],
+                        [
+                            -97.63,
+                            43.59
+                        ],
+                        [
+                            -97.67,
+                            43.66
+                        ],
+                        [
+                            -97.66,
+                            43.67
+                        ],
+                        [
+                            -97.59,
+                            43.67
+                        ],
+                        [
+                            -97.58,
+                            43.68
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.82 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.08 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.002 /s",
+                    "LINE07": "- 98% LLAzShear: 0.002 /s",
+                    "LINE08": "- 98% MLAzShear: 0.003 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 18.1 kts; SRH 0-1km AGL: 197 m^2/s^2",
+                    "LINE11": "- MUCAPE: 413 J/kg; MLCAPE: 6 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 13.1 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 8.6 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 117 J/kg; PWAT: 1.2 in.",
+                    "LINE15": "Avg. beam height (ARL): 3.71 kft / 1.13 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.002 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE05": "- Flash Density: 0.08 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 197 m2/s2",
+                    "LINE07": "- EBShear: 18.1 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 13.1 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 6/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 3.71 kft / 1.13 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 1 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 18.1 kts",
+                    "LINE06": "- CAPE -10C to -30C: 117 J/kg",
+                    "LINE07": "- PWAT: 1.2 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 8.6 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.82 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 18.1 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 13.1 kts",
+                    "LINE10": "- MUCAPE: 413 J/kg; MLCAPE: 6 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "413",
+                "MLCAPE": "6",
+                "MLCIN": "-999",
+                "EBSHEAR": "18.1",
+                "SRH01KM": "197",
+                "MEANWIND_1-3kmAGL": "13.1",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.82",
+                "FLASH_RATE": "1",
+                "FLASH_DENSITY": "0.08",
+                "MAXLLAZ": "0.002",
+                "P98LLAZ": "0.002",
+                "P98MLAZ": "0.003",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "8.6",
+                "PWAT": "1.2",
+                "CAPE_M10M30": "117",
+                "LJA": "0.0",
+                "SIZE": "143",
+                "AVG_BEAM_HGT": "3.71 kft / 1.13 km",
+                "MOTION_EAST": "-4.9",
+                "MOTION_SOUTH": "-6.757",
+                "PS": "0",
+                "ID": "919"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94.12,
+                            41.58
+                        ],
+                        [
+                            -94.1,
+                            41.58
+                        ],
+                        [
+                            -94.07,
+                            41.56
+                        ],
+                        [
+                            -94.07,
+                            41.51
+                        ],
+                        [
+                            -94.1,
+                            41.48
+                        ],
+                        [
+                            -94.15,
+                            41.48
+                        ],
+                        [
+                            -94.16,
+                            41.49
+                        ],
+                        [
+                            -94.16,
+                            41.54
+                        ],
+                        [
+                            -94.15,
+                            41.56
+                        ],
+                        [
+                            -94.12,
+                            41.58
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.43 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.06 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.004 /s",
+                    "LINE07": "- 98% LLAzShear: 0.002 /s",
+                    "LINE08": "- 98% MLAzShear: 0.003 /s",
+                    "LINE09": "- Norm. vert. growth rate: 0711Z 2.1%/min (moderate)",
+                    "LINE10": "- EBShear: 32.8 kts; SRH 0-1km AGL: 207 m^2/s^2",
+                    "LINE11": "- MUCAPE: 471 J/kg; MLCAPE: 13 J/kg; MLCIN: -72 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 26.0 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 10.1 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 169 J/kg; PWAT: 1.2 in.",
+                    "LINE15": "Avg. beam height (ARL): 1.48 kft / 0.45 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.004 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE05": "- Flash Density: 0.06 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 207 m2/s2",
+                    "LINE07": "- EBShear: 32.8 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 26.0 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 13/-72 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 1.48 kft / 0.45 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- Flash Rate: 1 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: 0711Z 2.1%/min (moderate)",
+                    "LINE05": "- EBShear: 32.8 kts",
+                    "LINE06": "- CAPE -10C to -30C: 169 J/kg",
+                    "LINE07": "- PWAT: 1.2 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 10.1 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.43 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: 0711Z 2.1%/min (moderate)",
+                    "LINE08": "- EBShear: 32.8 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 26.0 kts",
+                    "LINE10": "- MUCAPE: 471 J/kg; MLCAPE: 13 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "471",
+                "MLCAPE": "13",
+                "MLCIN": "-72",
+                "EBSHEAR": "32.8",
+                "SRH01KM": "207",
+                "MEANWIND_1-3kmAGL": "26.0",
+                "MESH": "0.05",
+                "VIL_DENSITY": "0.43",
+                "FLASH_RATE": "1",
+                "FLASH_DENSITY": "0.06",
+                "MAXLLAZ": "0.004",
+                "P98LLAZ": "0.002",
+                "P98MLAZ": "0.003",
+                "MAXRC_EMISS": "0711Z 2.1%/min (moderate)",
+                "MAXRC_ICECF": "0646Z 0.09/min (strong)",
+                "WETBULB_0C_HGT": "10.1",
+                "PWAT": "1.2",
+                "CAPE_M10M30": "169",
+                "LJA": "0.0",
+                "SIZE": "91",
+                "AVG_BEAM_HGT": "1.48 kft / 0.45 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "2",
+                "ID": "925"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -123.99,
+                            47.2
+                        ],
+                        [
+                            -123.95,
+                            47.18
+                        ],
+                        [
+                            -123.94,
+                            47.16
+                        ],
+                        [
+                            -123.95,
+                            47.15
+                        ],
+                        [
+                            -123.94,
+                            47.14
+                        ],
+                        [
+                            -123.94,
+                            47.12
+                        ],
+                        [
+                            -123.95,
+                            47.1
+                        ],
+                        [
+                            -123.99,
+                            47.06
+                        ],
+                        [
+                            -124.02,
+                            47.06
+                        ],
+                        [
+                            -124.04,
+                            47.08
+                        ],
+                        [
+                            -124.04,
+                            47.11
+                        ],
+                        [
+                            -124.03,
+                            47.12
+                        ],
+                        [
+                            -124.03,
+                            47.15
+                        ],
+                        [
+                            -124.02,
+                            47.16
+                        ],
+                        [
+                            -124.03,
+                            47.19
+                        ],
+                        [
+                            -124.0,
+                            47.19
+                        ],
+                        [
+                            -123.99,
+                            47.2
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.24 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.002 /s",
+                    "LINE07": "- 98% LLAzShear: 0.001 /s",
+                    "LINE08": "- 98% MLAzShear: 0.002 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 5.0 kts; SRH 0-1km AGL: 247 m^2/s^2",
+                    "LINE11": "- MUCAPE: 10 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 38.6 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 6.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 0 J/kg; PWAT: 0.9 in.",
+                    "LINE15": "Avg. beam height (ARL): 0.25 kft / 0.08 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.002 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.002 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 247 m2/s2",
+                    "LINE07": "- EBShear: 5.0 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 38.6 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 0.25 kft / 0.08 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 5.0 kts",
+                    "LINE06": "- CAPE -10C to -30C: 0 J/kg",
+                    "LINE07": "- PWAT: 0.9 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 6.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.24 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.002 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 5.0 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 38.6 kts",
+                    "LINE10": "- MUCAPE: 10 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "10",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "5.0",
+                "SRH01KM": "247",
+                "MEANWIND_1-3kmAGL": "38.6",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.24",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.002",
+                "P98LLAZ": "0.001",
+                "P98MLAZ": "0.002",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "6.5",
+                "PWAT": "0.9",
+                "CAPE_M10M30": "0",
+                "LJA": "0.0",
+                "SIZE": "121",
+                "AVG_BEAM_HGT": "0.25 kft / 0.08 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "0",
+                "ID": "927"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -98.28,
+                            43.5
+                        ],
+                        [
+                            -98.25,
+                            43.5
+                        ],
+                        [
+                            -98.25,
+                            43.46
+                        ],
+                        [
+                            -98.28,
+                            43.42
+                        ],
+                        [
+                            -98.29,
+                            43.34
+                        ],
+                        [
+                            -98.3,
+                            43.34
+                        ],
+                        [
+                            -98.33,
+                            43.31
+                        ],
+                        [
+                            -98.39,
+                            43.31
+                        ],
+                        [
+                            -98.43,
+                            43.39
+                        ],
+                        [
+                            -98.42,
+                            43.43
+                        ],
+                        [
+                            -98.39,
+                            43.46
+                        ],
+                        [
+                            -98.34,
+                            43.46
+                        ],
+                        [
+                            -98.33,
+                            43.47
+                        ],
+                        [
+                            -98.3,
+                            43.47
+                        ],
+                        [
+                            -98.28,
+                            43.5
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.002 /s",
+                    "LINE07": "- 98% LLAzShear: 0.001 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 35.5 kts; SRH 0-1km AGL: 202 m^2/s^2",
+                    "LINE11": "- MUCAPE: 420 J/kg; MLCAPE: 18 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 7.5 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 9.2 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 115 J/kg; PWAT: 1.1 in.",
+                    "LINE15": "Avg. beam height (ARL): 9.65 kft / 2.94 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.002 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 202 m2/s2",
+                    "LINE07": "- EBShear: 35.5 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 7.5 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 18/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 9.65 kft / 2.94 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 35.5 kts",
+                    "LINE06": "- CAPE -10C to -30C: 115 J/kg",
+                    "LINE07": "- PWAT: 1.1 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 9.2 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 35.5 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 7.5 kts",
+                    "LINE10": "- MUCAPE: 420 J/kg; MLCAPE: 18 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "420",
+                "MLCAPE": "18",
+                "MLCIN": "-999",
+                "EBSHEAR": "35.5",
+                "SRH01KM": "202",
+                "MEANWIND_1-3kmAGL": "7.5",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.32",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.002",
+                "P98LLAZ": "0.001",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "9.2",
+                "PWAT": "1.1",
+                "CAPE_M10M30": "115",
+                "LJA": "0.0",
+                "SIZE": "243",
+                "AVG_BEAM_HGT": "9.65 kft / 2.94 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "1",
+                "ID": "928"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -96.85,
+                            43.46
+                        ],
+                        [
+                            -96.84,
+                            43.45
+                        ],
+                        [
+                            -96.82,
+                            43.45
+                        ],
+                        [
+                            -96.78,
+                            43.41
+                        ],
+                        [
+                            -96.73,
+                            43.41
+                        ],
+                        [
+                            -96.71,
+                            43.4
+                        ],
+                        [
+                            -96.7,
+                            43.39
+                        ],
+                        [
+                            -96.71,
+                            43.38
+                        ],
+                        [
+                            -96.7,
+                            43.37
+                        ],
+                        [
+                            -96.71,
+                            43.36
+                        ],
+                        [
+                            -96.71,
+                            43.34
+                        ],
+                        [
+                            -96.72,
+                            43.33
+                        ],
+                        [
+                            -96.77,
+                            43.33
+                        ],
+                        [
+                            -96.79,
+                            43.35
+                        ],
+                        [
+                            -96.79,
+                            43.37
+                        ],
+                        [
+                            -96.8,
+                            43.38
+                        ],
+                        [
+                            -96.88,
+                            43.38
+                        ],
+                        [
+                            -96.9,
+                            43.39
+                        ],
+                        [
+                            -96.9,
+                            43.42
+                        ],
+                        [
+                            -96.85,
+                            43.46
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 1.45 g/m^3",
+                    "LINE04": "- Flash Rate: 3 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.08 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.007 /s",
+                    "LINE07": "- 98% LLAzShear: 0.004 /s",
+                    "LINE08": "- 98% MLAzShear: 0.007 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 32.0 kts; SRH 0-1km AGL: 332 m^2/s^2",
+                    "LINE11": "- MUCAPE: 443 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 17.6 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 9.6 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 170 J/kg; PWAT: 1.1 in.",
+                    "LINE15": "Avg. beam height (ARL): 0.57 kft / 0.17 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.007 /s (moderate)",
+                    "LINE03": "- 98% LLAzShear: 0.004 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.007 /s (moderate)",
+                    "LINE05": "- Flash Density: 0.08 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 332 m2/s2",
+                    "LINE07": "- EBShear: 32.0 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 17.6 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 0.57 kft / 0.17 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- Flash Rate: 3 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 32.0 kts",
+                    "LINE06": "- CAPE -10C to -30C: 170 J/kg",
+                    "LINE07": "- PWAT: 1.1 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 9.6 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 1.45 g/m^3",
+                    "LINE04": "- Flash Rate: 3 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.004 /s (moderate)",
+                    "LINE06": "- 98% MLAzShear: 0.007 /s (strong)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 32.0 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 17.6 kts",
+                    "LINE10": "- MUCAPE: 443 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "443",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "32.0",
+                "SRH01KM": "332",
+                "MEANWIND_1-3kmAGL": "17.6",
+                "MESH": "0.05",
+                "VIL_DENSITY": "1.45",
+                "FLASH_RATE": "3",
+                "FLASH_DENSITY": "0.08",
+                "MAXLLAZ": "0.007",
+                "P98LLAZ": "0.004",
+                "P98MLAZ": "0.007",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "9.6",
+                "PWAT": "1.1",
+                "CAPE_M10M30": "170",
+                "LJA": "0.0",
+                "SIZE": "156",
+                "AVG_BEAM_HGT": "0.57 kft / 0.17 km",
+                "MOTION_EAST": "-6.174",
+                "MOTION_SOUTH": "-8.596",
+                "PS": "2",
+                "ID": "929"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -103.47,
+                            44.8
+                        ],
+                        [
+                            -103.44,
+                            44.8
+                        ],
+                        [
+                            -103.42,
+                            44.79
+                        ],
+                        [
+                            -103.41,
+                            44.73
+                        ],
+                        [
+                            -103.44,
+                            44.71
+                        ],
+                        [
+                            -103.47,
+                            44.71
+                        ],
+                        [
+                            -103.49,
+                            44.72
+                        ],
+                        [
+                            -103.5,
+                            44.74
+                        ],
+                        [
+                            -103.49,
+                            44.79
+                        ],
+                        [
+                            -103.47,
+                            44.8
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.001 /s",
+                    "LINE07": "- 98% LLAzShear: 0.001 /s",
+                    "LINE08": "- 98% MLAzShear: 0.000 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 8.0 kts; SRH 0-1km AGL: 68 m^2/s^2",
+                    "LINE11": "- MUCAPE: 42 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 20.2 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 1.3 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 18 J/kg; PWAT: 0.7 in.",
+                    "LINE15": "Avg. beam height (ARL): 3.91 kft / 1.19 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.001 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.000 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 68 m2/s2",
+                    "LINE07": "- EBShear: 8.0 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 20.2 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 3.91 kft / 1.19 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 8.0 kts",
+                    "LINE06": "- CAPE -10C to -30C: 18 J/kg",
+                    "LINE07": "- PWAT: 0.7 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 1.3 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.32 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.000 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 8.0 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 20.2 kts",
+                    "LINE10": "- MUCAPE: 42 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "42",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "8.0",
+                "SRH01KM": "68",
+                "MEANWIND_1-3kmAGL": "20.2",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.32",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.001",
+                "P98LLAZ": "0.001",
+                "P98MLAZ": "0.000",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "1.3",
+                "PWAT": "0.7",
+                "CAPE_M10M30": "18",
+                "LJA": "0.0",
+                "SIZE": "79",
+                "AVG_BEAM_HGT": "3.91 kft / 1.19 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "0",
+                "ID": "932"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.85,
+                            28.3
+                        ],
+                        [
+                            -89.82,
+                            28.3
+                        ],
+                        [
+                            -89.81,
+                            28.29
+                        ],
+                        [
+                            -89.79,
+                            28.29
+                        ],
+                        [
+                            -89.75,
+                            28.27
+                        ],
+                        [
+                            -89.74,
+                            28.26
+                        ],
+                        [
+                            -89.74,
+                            28.22
+                        ],
+                        [
+                            -89.75,
+                            28.21
+                        ],
+                        [
+                            -89.81,
+                            28.21
+                        ],
+                        [
+                            -89.83,
+                            28.23
+                        ],
+                        [
+                            -89.86,
+                            28.24
+                        ],
+                        [
+                            -89.86,
+                            28.29
+                        ],
+                        [
+                            -89.85,
+                            28.3
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.07 in.",
+                    "LINE03": "- VIL Density: 0.47 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.002 /s",
+                    "LINE07": "- 98% LLAzShear: 0.002 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 44.2 kts; SRH 0-1km AGL: 20 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2617 J/kg; MLCAPE: 1828 J/kg; MLCIN: -2 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 13.6 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 13.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 564 J/kg; PWAT: 1.9 in.",
+                    "LINE15": "Avg. beam height (ARL): 14.39 kft / 4.38 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.002 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 20 m2/s2",
+                    "LINE07": "- EBShear: 44.2 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 13.6 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1828/-2 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 14.39 kft / 4.38 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.07 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 44.2 kts",
+                    "LINE06": "- CAPE -10C to -30C: 564 J/kg",
+                    "LINE07": "- PWAT: 1.9 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 13.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.07 in.",
+                    "LINE03": "- VIL Density: 0.47 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 44.2 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 13.6 kts",
+                    "LINE10": "- MUCAPE: 2617 J/kg; MLCAPE: 1828 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2617",
+                "MLCAPE": "1828",
+                "MLCIN": "-2",
+                "EBSHEAR": "44.2",
+                "SRH01KM": "20",
+                "MEANWIND_1-3kmAGL": "13.6",
+                "MESH": "0.07",
+                "VIL_DENSITY": "0.47",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.002",
+                "P98LLAZ": "0.002",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "13.5",
+                "PWAT": "1.9",
+                "CAPE_M10M30": "564",
+                "LJA": "0.0",
+                "SIZE": "100",
+                "AVG_BEAM_HGT": "14.39 kft / 4.38 km",
+                "MOTION_EAST": "-1.846",
+                "MOTION_SOUTH": "-2.236",
+                "PS": "9",
+                "ID": "936"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -97.5,
+                            43.59
+                        ],
+                        [
+                            -97.47,
+                            43.59
+                        ],
+                        [
+                            -97.44,
+                            43.57
+                        ],
+                        [
+                            -97.44,
+                            43.53
+                        ],
+                        [
+                            -97.45,
+                            43.52
+                        ],
+                        [
+                            -97.47,
+                            43.51
+                        ],
+                        [
+                            -97.5,
+                            43.51
+                        ],
+                        [
+                            -97.52,
+                            43.52
+                        ],
+                        [
+                            -97.52,
+                            43.54
+                        ],
+                        [
+                            -97.51,
+                            43.55
+                        ],
+                        [
+                            -97.5,
+                            43.59
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.87 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.07 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.003 /s",
+                    "LINE07": "- 98% LLAzShear: 0.002 /s",
+                    "LINE08": "- 98% MLAzShear: 0.003 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 17.6 kts; SRH 0-1km AGL: 214 m^2/s^2",
+                    "LINE11": "- MUCAPE: 441 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 14.5 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 8.6 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 136 J/kg; PWAT: 1.2 in.",
+                    "LINE15": "Avg. beam height (ARL): 3.06 kft / 0.93 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.003 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE05": "- Flash Density: 0.07 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 214 m2/s2",
+                    "LINE07": "- EBShear: 17.6 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 14.5 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 3.06 kft / 0.93 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- Flash Rate: 1 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 17.6 kts",
+                    "LINE06": "- CAPE -10C to -30C: 136 J/kg",
+                    "LINE07": "- PWAT: 1.2 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 8.6 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.05 in.",
+                    "LINE03": "- VIL Density: 0.87 g/m^3",
+                    "LINE04": "- Flash Rate: 1 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.002 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 17.6 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 14.5 kts",
+                    "LINE10": "- MUCAPE: 441 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "441",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "17.6",
+                "SRH01KM": "214",
+                "MEANWIND_1-3kmAGL": "14.5",
+                "MESH": "0.05",
+                "VIL_DENSITY": "0.87",
+                "FLASH_RATE": "1",
+                "FLASH_DENSITY": "0.07",
+                "MAXLLAZ": "0.003",
+                "P98LLAZ": "0.002",
+                "P98MLAZ": "0.003",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "8.6",
+                "PWAT": "1.2",
+                "CAPE_M10M30": "136",
+                "LJA": "0.0",
+                "SIZE": "64",
+                "AVG_BEAM_HGT": "3.06 kft / 0.93 km",
+                "MOTION_EAST": "-5.8",
+                "MOTION_SOUTH": "-8.056",
+                "PS": "0",
+                "ID": "939"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -97.25,
+                            43.5
+                        ],
+                        [
+                            -97.22,
+                            43.5
+                        ],
+                        [
+                            -97.21,
+                            43.49
+                        ],
+                        [
+                            -97.22,
+                            43.45
+                        ],
+                        [
+                            -97.23,
+                            43.45
+                        ],
+                        [
+                            -97.24,
+                            43.43
+                        ],
+                        [
+                            -97.26,
+                            43.42
+                        ],
+                        [
+                            -97.3,
+                            43.42
+                        ],
+                        [
+                            -97.31,
+                            43.43
+                        ],
+                        [
+                            -97.3,
+                            43.46
+                        ],
+                        [
+                            -97.29,
+                            43.46
+                        ],
+                        [
+                            -97.25,
+                            43.5
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.83 g/m^3",
+                    "LINE04": "- Flash Rate: 2 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.06 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.004 /s",
+                    "LINE07": "- 98% LLAzShear: 0.003 /s",
+                    "LINE08": "- 98% MLAzShear: 0.003 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 24.7 kts; SRH 0-1km AGL: 280 m^2/s^2",
+                    "LINE11": "- MUCAPE: 460 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 16.0 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 8.7 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 141 J/kg; PWAT: 1.1 in.",
+                    "LINE15": "Avg. beam height (ARL): 1.95 kft / 0.59 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.004 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE05": "- Flash Density: 0.06 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 280 m2/s2",
+                    "LINE07": "- EBShear: 24.7 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 16.0 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 1.95 kft / 0.59 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 2 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 24.7 kts",
+                    "LINE06": "- CAPE -10C to -30C: 141 J/kg",
+                    "LINE07": "- PWAT: 1.1 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 8.7 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.83 g/m^3",
+                    "LINE04": "- Flash Rate: 2 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.003 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 24.7 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 16.0 kts",
+                    "LINE10": "- MUCAPE: 460 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "460",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "24.7",
+                "SRH01KM": "280",
+                "MEANWIND_1-3kmAGL": "16.0",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.83",
+                "FLASH_RATE": "2",
+                "FLASH_DENSITY": "0.06",
+                "MAXLLAZ": "0.004",
+                "P98LLAZ": "0.003",
+                "P98MLAZ": "0.003",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "8.7",
+                "PWAT": "1.1",
+                "CAPE_M10M30": "141",
+                "LJA": "0.0",
+                "SIZE": "64",
+                "AVG_BEAM_HGT": "1.95 kft / 0.59 km",
+                "MOTION_EAST": "-6.188",
+                "MOTION_SOUTH": "-8.616",
+                "PS": "0",
+                "ID": "940"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.44,
+                            28.29
+                        ],
+                        [
+                            -89.42,
+                            28.28
+                        ],
+                        [
+                            -89.39,
+                            28.28
+                        ],
+                        [
+                            -89.38,
+                            28.27
+                        ],
+                        [
+                            -89.39,
+                            28.25
+                        ],
+                        [
+                            -89.39,
+                            28.22
+                        ],
+                        [
+                            -89.42,
+                            28.2
+                        ],
+                        [
+                            -89.47,
+                            28.21
+                        ],
+                        [
+                            -89.47,
+                            28.24
+                        ],
+                        [
+                            -89.48,
+                            28.25
+                        ],
+                        [
+                            -89.48,
+                            28.27
+                        ],
+                        [
+                            -89.44,
+                            28.29
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.11 in.",
+                    "LINE03": "- VIL Density: 0.52 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.001 /s",
+                    "LINE07": "- 98% LLAzShear: 0.001 /s",
+                    "LINE08": "- 98% MLAzShear: 0.001 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 48.8 kts; SRH 0-1km AGL: 20 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2529 J/kg; MLCAPE: 1657 J/kg; MLCIN: -1 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 13.3 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 13.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 507 J/kg; PWAT: 2.0 in.",
+                    "LINE15": "Avg. beam height (ARL): 14.84 kft / 4.52 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.001 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 20 m2/s2",
+                    "LINE07": "- EBShear: 48.8 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 13.3 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1657/-1 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 14.84 kft / 4.52 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.11 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 48.8 kts",
+                    "LINE06": "- CAPE -10C to -30C: 507 J/kg",
+                    "LINE07": "- PWAT: 2.0 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 13.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.11 in.",
+                    "LINE03": "- VIL Density: 0.52 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.001 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.001 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 48.8 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 13.3 kts",
+                    "LINE10": "- MUCAPE: 2529 J/kg; MLCAPE: 1657 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2529",
+                "MLCAPE": "1657",
+                "MLCIN": "-1",
+                "EBSHEAR": "48.8",
+                "SRH01KM": "20",
+                "MEANWIND_1-3kmAGL": "13.3",
+                "MESH": "0.11",
+                "VIL_DENSITY": "0.52",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.001",
+                "P98LLAZ": "0.001",
+                "P98MLAZ": "0.001",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "13.5",
+                "PWAT": "2.0",
+                "CAPE_M10M30": "507",
+                "LJA": "0.0",
+                "SIZE": "81",
+                "AVG_BEAM_HGT": "14.84 kft / 4.52 km",
+                "MOTION_EAST": "-1.307",
+                "MOTION_SOUTH": "-1.567",
+                "PS": "11",
+                "ID": "941"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -93.95,
+                            28.16
+                        ],
+                        [
+                            -93.94,
+                            28.15
+                        ],
+                        [
+                            -93.92,
+                            28.16
+                        ],
+                        [
+                            -93.91,
+                            28.14
+                        ],
+                        [
+                            -93.92,
+                            28.12
+                        ],
+                        [
+                            -93.92,
+                            28.08
+                        ],
+                        [
+                            -93.94,
+                            28.06
+                        ],
+                        [
+                            -93.96,
+                            28.08
+                        ],
+                        [
+                            -93.99,
+                            28.08
+                        ],
+                        [
+                            -94.0,
+                            28.06
+                        ],
+                        [
+                            -94.02,
+                            28.05
+                        ],
+                        [
+                            -94.01,
+                            28.06
+                        ],
+                        [
+                            -94.01,
+                            28.1
+                        ],
+                        [
+                            -93.99,
+                            28.12
+                        ],
+                        [
+                            -94.0,
+                            28.13
+                        ],
+                        [
+                            -93.98,
+                            28.15
+                        ],
+                        [
+                            -93.96,
+                            28.15
+                        ],
+                        [
+                            -93.95,
+                            28.16
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.04 in.",
+                    "LINE03": "- VIL Density: 0.83 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.001 /s",
+                    "LINE07": "- 98% LLAzShear: 0.000 /s",
+                    "LINE08": "- 98% MLAzShear: 0.000 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 25.1 kts; SRH 0-1km AGL: 8 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2447 J/kg; MLCAPE: 1906 J/kg; MLCIN: -3 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 14.2 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 11.4 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 601 J/kg; PWAT: 1.5 in.",
+                    "LINE15": "Avg. beam height (ARL): 10.95 kft / 3.34 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.001 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.000 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.000 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 8 m2/s2",
+                    "LINE07": "- EBShear: 25.1 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 14.2 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1906/-3 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 10.95 kft / 3.34 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.04 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 25.1 kts",
+                    "LINE06": "- CAPE -10C to -30C: 601 J/kg",
+                    "LINE07": "- PWAT: 1.5 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 11.4 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.04 in.",
+                    "LINE03": "- VIL Density: 0.83 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.000 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.000 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 25.1 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 14.2 kts",
+                    "LINE10": "- MUCAPE: 2447 J/kg; MLCAPE: 1906 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2447",
+                "MLCAPE": "1906",
+                "MLCIN": "-3",
+                "EBSHEAR": "25.1",
+                "SRH01KM": "8",
+                "MEANWIND_1-3kmAGL": "14.2",
+                "MESH": "0.04",
+                "VIL_DENSITY": "0.83",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.001",
+                "P98LLAZ": "0.000",
+                "P98MLAZ": "0.000",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "11.4",
+                "PWAT": "1.5",
+                "CAPE_M10M30": "601",
+                "LJA": "0.0",
+                "SIZE": "86",
+                "AVG_BEAM_HGT": "10.95 kft / 3.34 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "2",
+                "ID": "942"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -96.97,
+                            43.51
+                        ],
+                        [
+                            -96.96,
+                            43.5
+                        ],
+                        [
+                            -96.96,
+                            43.45
+                        ],
+                        [
+                            -97.03,
+                            43.4
+                        ],
+                        [
+                            -97.05,
+                            43.4
+                        ],
+                        [
+                            -97.06,
+                            43.41
+                        ],
+                        [
+                            -97.05,
+                            43.42
+                        ],
+                        [
+                            -97.05,
+                            43.47
+                        ],
+                        [
+                            -97.02,
+                            43.5
+                        ],
+                        [
+                            -96.98,
+                            43.5
+                        ],
+                        [
+                            -96.97,
+                            43.51
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 0%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.69 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.03 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.004 /s",
+                    "LINE07": "- 98% LLAzShear: 0.003 /s",
+                    "LINE08": "- 98% MLAzShear: 0.004 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 27.0 kts; SRH 0-1km AGL: 321 m^2/s^2",
+                    "LINE11": "- MUCAPE: 463 J/kg; MLCAPE: 0 J/kg; MLCIN: -999 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 16.7 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 9.5 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 168 J/kg; PWAT: 1.1 in.",
+                    "LINE15": "Avg. beam height (ARL): 0.91 kft / 0.28 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.004 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE05": "- Flash Density: 0.03 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 321 m2/s2",
+                    "LINE07": "- EBShear: 27.0 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 16.7 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 0/-999 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 0.91 kft / 0.28 km"
+                },
+                "probhail": {
+                    "PROB": "0",
+                    "LINE01": "ProbHail: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 27.0 kts",
+                    "LINE06": "- CAPE -10C to -30C: 168 J/kg",
+                    "LINE07": "- PWAT: 1.1 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 9.5 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.69 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 27.0 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 16.7 kts",
+                    "LINE10": "- MUCAPE: 463 J/kg; MLCAPE: 0 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "463",
+                "MLCAPE": "0",
+                "MLCIN": "-999",
+                "EBSHEAR": "27.0",
+                "SRH01KM": "321",
+                "MEANWIND_1-3kmAGL": "16.7",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.69",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.03",
+                "MAXLLAZ": "0.004",
+                "P98LLAZ": "0.003",
+                "P98MLAZ": "0.004",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "9.5",
+                "PWAT": "1.1",
+                "CAPE_M10M30": "168",
+                "LJA": "0.0",
+                "SIZE": "86",
+                "AVG_BEAM_HGT": "0.91 kft / 0.28 km",
+                "MOTION_EAST": "-6.234",
+                "MOTION_SOUTH": "-8.683",
+                "PS": "1",
+                "ID": "943"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -94.97,
+                            29.18
+                        ],
+                        [
+                            -94.96,
+                            29.18
+                        ],
+                        [
+                            -94.96,
+                            29.17
+                        ],
+                        [
+                            -94.94,
+                            29.16
+                        ],
+                        [
+                            -94.94,
+                            29.15
+                        ],
+                        [
+                            -94.95,
+                            29.15
+                        ],
+                        [
+                            -94.96,
+                            29.13
+                        ],
+                        [
+                            -94.98,
+                            29.15
+                        ],
+                        [
+                            -95.01,
+                            29.15
+                        ],
+                        [
+                            -95.02,
+                            29.14
+                        ],
+                        [
+                            -95.02,
+                            29.1
+                        ],
+                        [
+                            -95.03,
+                            29.1
+                        ],
+                        [
+                            -95.04,
+                            29.11
+                        ],
+                        [
+                            -95.03,
+                            29.13
+                        ],
+                        [
+                            -95.03,
+                            29.15
+                        ],
+                        [
+                            -95.04,
+                            29.16
+                        ],
+                        [
+                            -94.98,
+                            29.16
+                        ],
+                        [
+                            -94.97,
+                            29.18
+                        ]
+                    ]
+                ]
+            },
+            "models": {
+                "probsevere": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%; ProbWind: 1%; ProbTor: 0%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.21 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- Flash Density (max in last 30 min): 0.00 fl/min/km^2",
+                    "LINE06": "- Max LLAzShear: 0.003 /s",
+                    "LINE07": "- 98% LLAzShear: 0.003 /s",
+                    "LINE08": "- 98% MLAzShear: 0.004 /s",
+                    "LINE09": "- Norm. vert. growth rate: N/A",
+                    "LINE10": "- EBShear: 38.8 kts; SRH 0-1km AGL: 30 m^2/s^2",
+                    "LINE11": "- MUCAPE: 2285 J/kg; MLCAPE: 1569 J/kg; MLCIN: -15 J/kg",
+                    "LINE12": "- MeanWind 1-3kmAGL: 8.2 kts",
+                    "LINE13": "- Wetbulb 0C hgt: 12.3 kft AGL",
+                    "LINE14": "- CAPE -10C to -30C: 571 J/kg; PWAT: 1.3 in.",
+                    "LINE15": "Avg. beam height (ARL): 1.02 kft / 0.31 km"
+                },
+                "probtor": {
+                    "PROB": "0",
+                    "LINE01": "ProbTor: 0%",
+                    "LINE02": "- Max LLAzShear: 0.003 /s (weak)",
+                    "LINE03": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE04": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE05": "- Flash Density: 0.00 fl/min/km^2",
+                    "LINE06": "- SRH 0-1km AGL: 30 m2/s2",
+                    "LINE07": "- EBShear: 38.8 kts",
+                    "LINE08": "- MeanWind 1-3kmAGL: 8.2 kts",
+                    "LINE09": "- MLCAPE/MLCIN: 1569/-15 J/kg",
+                    "LINE10": "Avg. beam height (ARL): 1.02 kft / 0.31 km"
+                },
+                "probhail": {
+                    "PROB": "1",
+                    "LINE01": "ProbHail: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- Flash Rate: 0 fl/min",
+                    "LINE04": "- Norm. vert. growth rate: N/A",
+                    "LINE05": "- EBShear: 38.8 kts",
+                    "LINE06": "- CAPE -10C to -30C: 571 J/kg",
+                    "LINE07": "- PWAT: 1.3 in.",
+                    "LINE08": "- Wetbulb 0C hgt: 12.3 kft AGL"
+                },
+                "probwind": {
+                    "PROB": "1",
+                    "LINE01": "ProbWind: 1%",
+                    "LINE02": "- MESH: 0.00 in.",
+                    "LINE03": "- VIL Density: 0.21 g/m^3",
+                    "LINE04": "- Flash Rate: 0 fl/min",
+                    "LINE05": "- 98% LLAzShear: 0.003 /s (weak)",
+                    "LINE06": "- 98% MLAzShear: 0.004 /s (weak)",
+                    "LINE07": "- Norm. vert. growth rate: N/A",
+                    "LINE08": "- EBShear: 38.8 kts",
+                    "LINE09": "- MeanWind 1-3kmAGL: 8.2 kts",
+                    "LINE10": "- MUCAPE: 2285 J/kg; MLCAPE: 1569 J/kg"
+                }
+            },
+            "properties": {
+                "MUCAPE": "2285",
+                "MLCAPE": "1569",
+                "MLCIN": "-15",
+                "EBSHEAR": "38.8",
+                "SRH01KM": "30",
+                "MEANWIND_1-3kmAGL": "8.2",
+                "MESH": "0.00",
+                "VIL_DENSITY": "0.21",
+                "FLASH_RATE": "0",
+                "FLASH_DENSITY": "0.00",
+                "MAXLLAZ": "0.003",
+                "P98LLAZ": "0.003",
+                "P98MLAZ": "0.004",
+                "MAXRC_EMISS": "N/A",
+                "MAXRC_ICECF": "N/A",
+                "WETBULB_0C_HGT": "12.3",
+                "PWAT": "1.3",
+                "CAPE_M10M30": "571",
+                "LJA": "0.0",
+                "SIZE": "40",
+                "AVG_BEAM_HGT": "1.02 kft / 0.31 km",
+                "MOTION_EAST": "-1.302",
+                "MOTION_SOUTH": "-1.56",
+                "PS": "4",
+                "ID": "944"
+            }
+        }
+    ]
+}
