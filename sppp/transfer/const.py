@@ -7,13 +7,21 @@ class GridSpace:
     def __init__(
         self, x_resolution: int = 7000, y_resolution: int = 3500, **kwargs: int
     ):
-        self.__x = np.linspace(-129.995, -60.005002000040975, x_resolution)
+        self.__x = np.linspace(
+            -129.995,
+            -60.005002000040975,
+            x_resolution,
+            dtype=np.float32,
+        )
         self.__y = np.linspace(
-            54.995, 20.005000000002696, y_resolution
+            54.995,
+            20.005000000002696,
+            y_resolution,
+            dtype=np.float32,
         )  # mrms_grid(**kwargs)
 
         self.__zeros = pd.DataFrame(
-            columns=np.arange(len(self.__x)), index=np.arange(len(self.__y))
+            columns=np.arange(len(self.__x))[::-1], index=np.arange(len(self.__y))[::-1]
         ).fillna(0)
 
     @property

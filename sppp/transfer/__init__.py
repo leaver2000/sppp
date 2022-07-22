@@ -24,7 +24,9 @@ def coord_lister(geom: pd.Series) -> list[tuple[float, float]]:
     return coords
 
 
-def to_numeric(df: pd.DataFrame, dont_float: tuple[str, ...], dtype=np.float32)->pd.DataFrame:
+def to_numeric(
+    df: pd.DataFrame, dont_float: tuple[str, ...], dtype=np.float32
+) -> pd.DataFrame:
 
     condition = df.columns[~df.columns.isin(dont_float)]
     df[condition] = df[condition].astype(dtype)
