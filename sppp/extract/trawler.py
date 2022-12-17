@@ -57,35 +57,33 @@ class ArchiveTrawler(object):
     def get(self, url=None):
         try:
             if self.target:
-                if not url:
-                    print("Fetching target data: {}".format(self.target))
+                if url:
+                    print(f"Fetching url: {url}")
+                    jsonresp = requests.get(
+                        self.target, headers=self.headers, verify=False
+                    )
+                    jsonresp = jsonresp.text
+                    name = url.split("/")[-1]  # get filename
+                    with open(self.save_directory + name, "w+") as f:
+                        f.write(jsonresp)
+                else:
+                    print(f"Fetching target data: {self.target}")
                     jsonresp = requests.get(
                         self.target, headers=self.headers, verify=False
                     )
                     jsonresp = jsonresp.text
                     self.parse_json(jsonresp)
 
-                else:
-                    print("Fetching url: {}".format(url))
-                    jsonresp = requests.get(
-                        self.target, headers=self.headers, verify=False
-                    )
-                    jsonresp = jsonresp.text
-                    name = url.split("/")[-1]  # get filename
-                    f = open(self.save_directory + name, "w+")
-                    f.write(jsonresp)
-                    f.close()
-
             return 1
 
         except Exception as e:
-            print("get: " + str(e))
+            print(f"get: {str(e)}")
             return 0
 
     # recursively build urls
     def build_urls(self, url: str):
         try:
-            print("Fetching: {}".format(url))
+            print(f"Fetching: {url}")
             r = requests.get(url, headers=self.headers, verify=False)
             p = pandas.read_html(r.text)
             # print("Pandas munching")
@@ -97,22 +95,21 @@ class ArchiveTrawler(object):
                 l = str(l)
                 # if subdir, recurse
                 # print(l + " : " + str(self.target_folder))
-                if l[-1] == "/" and not self.target_folder in l:
-                    print("Found directory: {}".format(url + l))
+                if l[-1] == "/" and self.target_folder not in l:
+                    print(f"Found directory: {url + l}")
                     self.build_urls(url + l)
-                # if Probsevere in dir name, grab files and return
                 elif self.target_folder in l:
-                    print("Found Probsevere folder at: {}".format(url + l))
+                    print(f"Found Probsevere folder at: {url + l}")
                     rx = requests.get(url + l, verify=False)
                     px = pandas.read_html(rx.text)
                     for name in px[0]["Name"]:
                         name = str(name)
-                        print("Adding: " + str(url + l + name))
+                        print(f"Adding: {str(url + l + name)}")
                         self.get(url + l + name)
             return 1
 
         except Exception as e:
-            print("build_urls: " + str(e))
+            print(f"build_urls: {str(e)}")
             return 0
 
     def get_data(self):
